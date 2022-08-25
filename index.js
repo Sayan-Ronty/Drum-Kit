@@ -19,8 +19,8 @@ document.addEventListener("keydown", function(event){
     makeSound(event.key);
 });
 
-document.addEventListener("touchstart", function(event){
-    makeSound(event.touches);
+/*document.addEventListener("touchstart", function(event){
+    makeSound(event.touches);*/
 });
 
 function makeSound(key)
